@@ -16,34 +16,21 @@ _Описание исследования_
 
 1. randbool содержит одноимённый класс, который способен генерировать 0 или 1. Модуль был сделан при помощи модуля random, имеющий псевдо-случайный генератор чисел.
 2. game содержит 4 класса
-  1. Game - класс игры. При инициализации объекта проходит вышеописанная игра, где игроки используют собственный стратегии выбора строки/столбца
-  2. Player - класс игрока. Игрок содержит в себе вероятность выбора строки/столбца и способен случайно его выбирать, в зависимости изначально установленной вероятности (планировалось сделать его базовым классом, но я не обладаю достаточными знаниями наследования в языке python)
-  3. ReinfLearningPlayer - класс игрока, обладающий такими же методами и полями, как и Player, однако в функции score игрок меняет свою стратегию в пользу столбца/строки, благодаря которому он заработал положительный счёт.
-  4. PunishLearningPlayer - аналогичен прошлому классу, однако он в функции score игрок меняет свою стратегию против столбца/строки, из-за которого он заработал отрицательный счёт.
+      Game - класс игры. При инициализации объекта проходит вышеописанная игра, где игроки используют собственный стратегии выбора строки/столбца
+      Player - класс игрока. Игрок содержит в себе вероятность выбора строки/столбца и способен случайно его выбирать, в зависимости изначально установленной вероятности (планировалось сделать его базовым классом, но я не обладаю достаточными знаниями наследования в языке python)
+      ReinfLearningPlayer - класс игрока, обладающий такими же методами и полями, как и Player, однако в функции score игрок меняет свою стратегию в пользу столбца/строки, благодаря которому он заработал положительный счёт.
+      PunishLearningPlayer - аналогичен прошлому классу, однако он в функции score игрок меняет свою стратегию против столбца/строки, из-за которого он заработал отрицательный счёт.
 
 [Код программы](https://github.com/Dusty305/Probabilities-in-game-theory-and-machine-learning)
-
-Меню программы:
-
-![](RackMultipart20210619-4-1m8wufn_html_9adbc569f5957c54.png)
 
 1. Генератор случайных чисел описан в модуле RandomBool.py, в котором построен класс, сделанный с помощью модуля random языка Python
 2. [Первая стратегия](https://docs.google.com/spreadsheets/d/1XtfBDYEhrvmQmBtkh7tIcPcBEiNNcj30LN-OfiznrFo/edit?usp=sharing)
 3. [Вторая стратегия](https://docs.google.com/spreadsheets/d/1xQtPBVv9rMxM2cpiIe2Iya52Xw8Qx5LHrQ-SULccYE4/edit?usp=sharing)
 4. Третья стратегия
-
-[Обучение с подкреплением](https://docs.google.com/spreadsheets/d/1LzSFuquX5xPqqSf9c_YKtZxh6ovOZwNOrgcVxsF_t0k/edit?usp=sharing)
-
-[Обучение с наказанием](https://docs.google.com/spreadsheets/d/11B3Jkjf_7M58zOE8BjnxIK8OXo_h6b43rtrzTiuQAYM/edit?usp=sharing)
-
-![](RackMultipart20210619-4-1m8wufn_html_eb3ad83d76e173b5.png)
-
-![](RackMultipart20210619-4-1m8wufn_html_180beb55fdfce4a8.png)
-
-1. [Четвертая стратегия](https://docs.google.com/spreadsheets/d/1QKPXZ1Th5-uWPKB0o6qRa7CnpsLi9oeYOtuLCtqYY5g/edit?usp=sharing)
-
-![](RackMultipart20210619-4-1m8wufn_html_e9dda4255d4eeb4c.png)
-
+   [Обучение с подкреплением](https://docs.google.com/spreadsheets/d/1LzSFuquX5xPqqSf9c_YKtZxh6ovOZwNOrgcVxsF_t0k/edit?usp=sharing)
+   [Обучение с наказанием](https://docs.google.com/spreadsheets/d/11B3Jkjf_7M58zOE8BjnxIK8OXo_h6b43rtrzTiuQAYM/edit?usp=sharing)
+5. [Четвертая стратегия](https://docs.google.com/spreadsheets/d/1QKPXZ1Th5-uWPKB0o6qRa7CnpsLi9oeYOtuLCtqYY5g/edit?usp=sharing)
+6. 
 _Вывод_
 
 Очевидно, что первая стратегия - наименее предпочтительная из всех остальных, т.к. математическое ожидиние при ней равно 0 и неизвестно, кто из игроков будет в выигрыше.
