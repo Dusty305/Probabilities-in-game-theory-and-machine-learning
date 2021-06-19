@@ -1,6 +1,6 @@
 **&quot;Вероятность в теории игр и машинное обучение&quot;**
 
-_Краткое описание игры:_ ![](RackMultipart20210619-4-1m8wufn_html_9da21f962c2bc4eb.png)
+_Краткое описание игры:_
 
 Игроки A и B играют в следующую игру: они одновременно выбирают строку и столбец таблицы выигрышей соответственно.
 
@@ -28,18 +28,9 @@ _Описание исследования_
 ![](RackMultipart20210619-4-1m8wufn_html_9adbc569f5957c54.png)
 
 1. Генератор случайных чисел описан в модуле RandomBool.py, в котором построен класс, сделанный с помощью модуля random языка Python
-
-![](RackMultipart20210619-4-1m8wufn_html_d015cd2043bf0aae.png)
-
-1. [Первая стратегия](https://docs.google.com/spreadsheets/d/1XtfBDYEhrvmQmBtkh7tIcPcBEiNNcj30LN-OfiznrFo/edit?usp=sharing)
-
-![](RackMultipart20210619-4-1m8wufn_html_687d78edeaabb733.png)
-
-1. [Вторая стратегия](https://docs.google.com/spreadsheets/d/1xQtPBVv9rMxM2cpiIe2Iya52Xw8Qx5LHrQ-SULccYE4/edit?usp=sharing)
-
-![](RackMultipart20210619-4-1m8wufn_html_107dcdfbb7eb7ed2.png)
-
-1. Третья стратегия
+2. [Первая стратегия](https://docs.google.com/spreadsheets/d/1XtfBDYEhrvmQmBtkh7tIcPcBEiNNcj30LN-OfiznrFo/edit?usp=sharing)
+3. [Вторая стратегия](https://docs.google.com/spreadsheets/d/1xQtPBVv9rMxM2cpiIe2Iya52Xw8Qx5LHrQ-SULccYE4/edit?usp=sharing)
+4. Третья стратегия
 
 [Обучение с подкреплением](https://docs.google.com/spreadsheets/d/1LzSFuquX5xPqqSf9c_YKtZxh6ovOZwNOrgcVxsF_t0k/edit?usp=sharing)
 
